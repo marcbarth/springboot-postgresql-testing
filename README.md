@@ -1,2 +1,6 @@
 # springboot-postgresql-testing
-springboot postgres testing with testcontainer and flyway
+springboot koltin example application that use postgresql,testcontainer,flyway
+
+## Setup
+    docker-compose -f docker/docker-compose.yml build
+    docker-compose -f docker/docker-compose.yml up -d
